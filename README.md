@@ -15,7 +15,15 @@ git clone https://github.com/chandusreeram-9399/Bstack_assignment.git
 ```
 pip3 install -r requirements.txt
 ```
+* Virtual environment(Recommended)
+```
+python -m venv env
 
+```
+env\Scripts\activate 
+
+```
+                       
 ## Set BrowserStack Credentials
 * Add your BrowserStack username and access key in the `browserstack.yml` config fle.
 * You can also export them as environment variables, `BROWSERSTACK_USERNAME` and `BROWSERSTACK_ACCESS_KEY`:
@@ -39,5 +47,5 @@ pip3 install -r requirements.txt
     browserstack-sdk ./tests/test.py
     ``` 
     -To run the script on your local machine or any editor 
-      ./tests/localmacine.py
+      ./tests/localmachine.py
 * 
