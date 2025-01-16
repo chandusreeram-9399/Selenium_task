@@ -13,10 +13,11 @@ driver = webdriver.Remote(
     options=options)
 
 try:
-    driver.get('http://bs-local.com:45454')
+    driver.get('https://elpais.com/')
     page_title = driver.title
+    print(page_title)
     # check if local connected successfully
-    if 'BrowserStack Local' in page_title:
+    if 'EL PAÍS: el periódico global'  in page_title:
         # mark test as passed if Local website is accessible
         driver.execute_script(
             'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed", "reason": "Local Test ran successfully"}}')
