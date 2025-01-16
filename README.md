@@ -9,7 +9,7 @@ python3 should be installed
 ## Setup
 * Clone the repo
 ```
-git clone -b sdk https://github.com/browserstack/python-selenium-browserstack.git
+git clone https://github.com/chandusreeram-9399/Bstack_assignment.git
 ``` 
 * Install packages through requirements.txt
 ```
@@ -32,13 +32,12 @@ pip3 install -r requirements.txt
     ```
 
 ## Running tests
+
 * Run sample test:
   - To run the sample test across platforms defined in the `browserstack.yml` file, run:
     ```
     browserstack-sdk ./tests/test.py
     ``` 
-* Run tests on locally hosted website:
-  - To run the local test across platforms defined in the `browserstack.yml` file, run:
-    ```
-    browserstack-sdk ./tests/local-test.py
-    ``` 
+    -To run the script on your local machine or any editor 
+      ./tests/localmacine.py
+* 

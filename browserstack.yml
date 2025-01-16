@@ -14,9 +14,6 @@ platforms:
   - browserName: safari
     osVersion: 16
     deviceName: iPhone 14 Pro Max
-
-
-  
   - browserName: safari
     osVersion: 15
     deviceName: iPad 9th
